@@ -4,6 +4,7 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { AppComponent } from './app.component';
 import { RouterModule, Routes, CanActivate  } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -17,7 +18,8 @@ const appRoutes: Routes = [
   
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
